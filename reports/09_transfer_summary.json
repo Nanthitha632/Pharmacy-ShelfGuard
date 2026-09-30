@@ -1,0 +1,8 @@
+{
+  "decision_date": "2026-02-14",
+  "proposed_transfers": 188,
+  "units_reallocated": 1762,
+  "stock_purchase_units_added": 0,
+  "assumptions": "Same-region, same-SKU transfers arrive next day; donor retains 6 forecast days; proposal needs transport approval",
+  "limit": "This is a transfer plan, not a measured service improvement."
+}

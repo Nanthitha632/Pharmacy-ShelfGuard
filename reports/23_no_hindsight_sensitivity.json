@@ -1,0 +1,33 @@
+{
+  "project": "Pharmacy ShelfGuard synthetic simulation",
+  "analysis": "No-hindsight sensitivity check",
+  "locked_daily_escalation_limit": 50,
+  "change_from_step_22": "An overdue order is considered for escalation without using its eventual receipt date to predict whether escalation will help. If it arrives normally the next day, the escalation still incurs the assumed cost.",
+  "march": {
+    "baseline_fill_rate_percent": 92.02,
+    "policy_fill_rate_percent": 92.61,
+    "fill_rate_change_percentage_points": 0.59,
+    "baseline_stockout_store_sku_days": 3585,
+    "policy_stockout_store_sku_days": 3379,
+    "stockout_days_change_percent": -5.75,
+    "baseline_average_daily_inventory_value_usd": 444670.8,
+    "policy_average_daily_inventory_value_usd": 445045.22,
+    "inventory_value_change_percent": 0.08
+  },
+  "april": {
+    "baseline_fill_rate_percent": 91.78,
+    "policy_fill_rate_percent": 91.89,
+    "fill_rate_change_percentage_points": 0.1,
+    "baseline_stockout_store_sku_days": 3565,
+    "policy_stockout_store_sku_days": 3594,
+    "stockout_days_change_percent": 0.81,
+    "baseline_average_daily_inventory_value_usd": 442777.4,
+    "policy_average_daily_inventory_value_usd": 435626.86,
+    "inventory_value_change_percent": -1.61
+  },
+  "april_orders_escalated": 763,
+  "estimated_april_escalation_cost_usd": 19075,
+  "original_april_policy_fill_rate_percent": 91.89,
+  "validation": "Passed: baseline reproduced exactly and April baseline matches the original report.",
+  "limitations": "Supplier next-day escalation and its $25 cost are assumptions. Purchase orders remain on the baseline schedule despite different policy inventory. April was already examined in Step 22, so this is a sensitivity check, not a new untouched holdout."
+}

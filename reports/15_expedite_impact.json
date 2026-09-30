@@ -1,0 +1,22 @@
+{
+  "test_window": "2026-02-15 through 2026-03-01",
+  "orders_arriving_earlier": 289,
+  "units_arriving_earlier": 15672,
+  "estimated_expedite_cost_usd": 7225,
+  "baseline": {
+    "fill_rate_percent": 91.82,
+    "stockout_store_sku_days": 1778,
+    "average_daily_inventory_value_usd": 445328.43
+  },
+  "baseline_with_expedites": {
+    "fill_rate_percent": 92.94,
+    "stockout_store_sku_days": 1582,
+    "average_daily_inventory_value_usd": 450310.92
+  },
+  "change": {
+    "fill_rate_percentage_points": 1.12,
+    "stockout_days_percent": -11.02,
+    "inventory_value_percent": 1.12
+  },
+  "assumptions": "Every late order can be expedited to the day after its missed promise date for $25. Baseline purchase quantities and future PO schedule remain fixed."
+}

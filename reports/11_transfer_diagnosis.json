@@ -1,0 +1,40 @@
+{
+  "test_window": "2026-02-15 through 2026-03-01",
+  "receiver_store_medicines": {
+    "extra_fulfilled_units": 1081,
+    "extra_unmet_units": 0
+  },
+  "donor_store_medicines": {
+    "extra_fulfilled_units": 0,
+    "extra_unmet_units": 1157
+  },
+  "five_most_harmed_donor_pairs": [
+    {
+      "store_id": "ST014",
+      "sku": "MED015",
+      "extra_unmet_units": 40
+    },
+    {
+      "store_id": "ST035",
+      "sku": "MED027",
+      "extra_unmet_units": 36
+    },
+    {
+      "store_id": "ST022",
+      "sku": "MED002",
+      "extra_unmet_units": 34
+    },
+    {
+      "store_id": "ST007",
+      "sku": "MED027",
+      "extra_unmet_units": 33
+    },
+    {
+      "store_id": "ST007",
+      "sku": "MED006",
+      "extra_unmet_units": 32
+    }
+  ],
+  "interpretation": "Transfers must be judged by net fulfilled units across both stores, not receiver benefit alone.",
+  "evaluation_boundary": "These future outcomes explain the failed experiment. Do not use them as inputs to a February 14 decision."
+}

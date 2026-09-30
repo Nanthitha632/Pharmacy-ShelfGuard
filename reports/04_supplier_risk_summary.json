@@ -1,0 +1,9 @@
+{
+  "as_of_date": "2026-03-01",
+  "supplier_count": 4,
+  "highest_priority_supplier": "SUP02",
+  "reason": "Most overdue open purchase orders; late receipt rate breaks ties",
+  "total_late_receipts": 1592,
+  "total_overdue_open_orders": 49,
+  "definition": "Late receipt: actual receipt after expected date. Overdue open order: no receipt by the window end and expected date on or before that date."
+}

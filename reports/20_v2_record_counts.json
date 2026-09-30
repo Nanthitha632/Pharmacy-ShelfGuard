@@ -1,0 +1,9 @@
+{
+  "simulation": "ShelfGuard v2 continuous baseline",
+  "demand_records": 144000,
+  "daily_inventory_records": 144000,
+  "purchase_orders": 21831,
+  "goods_receipts_through_april_30": 21185,
+  "validation": "Passed: original PO sequence reproduced; inventory and demand balance; unique daily keys",
+  "evaluation_rule": "No April outcome metrics inspected before policy lock"
+}

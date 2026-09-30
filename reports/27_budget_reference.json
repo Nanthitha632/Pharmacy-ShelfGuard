@@ -1,0 +1,11 @@
+{
+  "source": "Synthetic baseline POs placed April 1-30, 2026",
+  "april_po_lines": 5293,
+  "mean_daily_spend_usd": 127907.9,
+  "median_daily_spend_usd": 130088.7,
+  "p90_daily_spend_usd": 141389.88,
+  "highest_daily_spend_usd": 150630.6,
+  "may_1_proposed_spend_usd": 413578.26,
+  "proposal_to_april_p90_ratio": 2.93,
+  "interpretation": "April's 90th percentile is a planning reference, not an approved budget or proof that the proposed orders improve service."
+}

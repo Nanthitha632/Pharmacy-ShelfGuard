@@ -1,0 +1,2 @@
+ShelfGuard automation readiness
+Docker Desktop: not installed

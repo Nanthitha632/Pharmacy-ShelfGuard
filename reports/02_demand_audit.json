@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "checks": {
+    "expected_demand_rows": 72000,
+    "actual_demand_rows": 72000,
+    "duplicate_store_sku_date_rows": 0,
+    "missing_store_sku_date_combinations": 0,
+    "unknown_store_rows": 0,
+    "unknown_product_rows": 0,
+    "invalid_date_rows": 0,
+    "invalid_quantity_rows": 0,
+    "products_with_unknown_supplier": 0
+  },
+  "total_requested_units": 639156,
+  "requested_units_by_category": {
+    "Allergy": 154229,
+    "Cold and Flu": 155963,
+    "Digestive": 120835,
+    "Pain Relief": 92424,
+    "Wellness": 115705
+  },
+  "highest_demand_store": "ST013",
+  "highest_demand_store_units": 20353,
+  "interpretation": "Customer requests are complete and linked to valid stores and SKUs."
+}

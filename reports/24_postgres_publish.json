@@ -1,0 +1,9 @@
+{
+  "database": "pharmacy_shelfguard_fresh",
+  "source": "data\\v2\\processed\\policy_comparison_april_no_hindsight.csv",
+  "detail_table": "shelfguard.april_policy_comparison",
+  "daily_view": "shelfguard.v_april_policy_daily",
+  "april_detail_rows": 36000,
+  "daily_view_rows": 30,
+  "validation": "Passed: PostgreSQL matches the Step 23 report"
+}

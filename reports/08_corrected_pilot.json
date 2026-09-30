@@ -1,0 +1,21 @@
+{
+  "window": "2026-02-15 through 2026-03-01",
+  "initial_recommendations_actually_placed": 723,
+  "additional_daily_orders": 9943,
+  "baseline": {
+    "fill_rate_percent": 91.82,
+    "stockout_store_sku_days": 1778,
+    "average_daily_inventory_value_usd": 445328.43
+  },
+  "corrected_policy_pilot": {
+    "fill_rate_percent": 97.96,
+    "stockout_store_sku_days": 459,
+    "average_daily_inventory_value_usd": 594109.34
+  },
+  "change": {
+    "fill_rate_percentage_points": 6.14,
+    "stockout_days_percent": -74.18,
+    "inventory_value_percent": 33.41
+  },
+  "status": "Corrected pilot; not the final calibrated portfolio result"
+}

@@ -1,0 +1,20 @@
+automation/airflow/.env
+
+# ShelfGuard local runtime files and backups
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+*.pem
+*.key
+*.db
+*.sqlite*
+*.log
+*.bak
+*_before_*.py
+*_backup*
+automation/airflow/logs/
+automation/airflow/config/
+reports/agent/agent_audit.jsonl

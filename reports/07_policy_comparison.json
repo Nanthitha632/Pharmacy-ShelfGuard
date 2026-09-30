@@ -1,0 +1,25 @@
+{
+  "window": "2026-02-15 through 2026-03-01",
+  "baseline": {
+    "requested_units": 156138,
+    "fulfilled_units": 143361,
+    "fill_rate_percent": 91.82,
+    "stockout_store_sku_days": 1778,
+    "average_daily_inventory_value_usd": 445328.43
+  },
+  "improved_policy_pilot": {
+    "requested_units": 156138,
+    "fulfilled_units": 152215,
+    "fill_rate_percent": 97.49,
+    "stockout_store_sku_days": 570,
+    "average_daily_inventory_value_usd": 577438.26
+  },
+  "new_policy_orders_in_test_window": 10249,
+  "change": {
+    "fill_rate_percentage_points": 5.67,
+    "stockout_days_percent": -67.94,
+    "inventory_value_percent": 29.67
+  },
+  "validation": "Same test demand and Feb 14 stock; no future demand used for an order decision; inventory balances passed",
+  "limitation": "Pilot delivery delays for new orders are deterministic synthetic draws; finalize a common supplier-event model before treating this as the portfolio evaluation."
+}

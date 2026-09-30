@@ -1,0 +1,35 @@
+{
+  "project": "Pharmacy ShelfGuard synthetic simulation",
+  "checked_at_utc": "2026-09-30T01:50:38.902044+00:00",
+  "checks": [
+    {
+      "scenario": "no_overdue",
+      "passed": true,
+      "observed_action": "HOLD_FOR_REVIEW",
+      "rules": [
+        "BUY-01",
+        "TRF-01"
+      ]
+    },
+    {
+      "scenario": "invented_numeric_claim",
+      "passed": true,
+      "probe": "This store has 999999 units available."
+    },
+    {
+      "scenario": "overdue",
+      "passed": true,
+      "observed_action": "ESCALATE_FOR_ETA",
+      "rules": [
+        "EXP-01"
+      ]
+    },
+    {
+      "scenario": "missing_data",
+      "passed": true,
+      "observed": "ValueError"
+    }
+  ],
+  "all_passed": true,
+  "scope": "Local four-scenario smoke check, not production validation"
+}

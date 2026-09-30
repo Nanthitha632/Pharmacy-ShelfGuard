@@ -1,0 +1,8 @@
+{
+  "policy": "Escalate overdue supplier orders",
+  "locked_after": "2026-03-31",
+  "daily_escalation_limit": 50,
+  "priority": "Historical unmet units at the store and SKU through 2026-03-01; PO ID breaks ties",
+  "final_evaluation": "2026-04-01 through 2026-04-30",
+  "rule": "Do not change this limit using April outcomes"
+}

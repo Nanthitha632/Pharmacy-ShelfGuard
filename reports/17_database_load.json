@@ -1,0 +1,15 @@
+{
+  "database": "pharmacy_shelfguard_fresh",
+  "schema": "shelfguard",
+  "row_counts": {
+    "suppliers": 4,
+    "stores": 40,
+    "products": 30,
+    "customer_demand": 72000,
+    "purchase_orders": 11234,
+    "goods_receipts": 10526,
+    "baseline_daily": 72000
+  },
+  "receipt_document_mismatches": 0,
+  "validation": "Passed"
+}

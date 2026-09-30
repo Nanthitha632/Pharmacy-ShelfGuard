@@ -1,0 +1,11 @@
+{
+  "simulation": "Pharmacy ShelfGuard \u2014 synthetic data",
+  "random_seed": 20260924,
+  "stores": 40,
+  "products": 30,
+  "suppliers": 4,
+  "days": 60,
+  "customer_demand_records": 72000,
+  "total_requested_units": 639156,
+  "validation": "Passed: unique store-SKU-date rows and nonnegative requests"
+}

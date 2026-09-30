@@ -1,0 +1,10 @@
+{
+  "database": "pharmacy_shelfguard_fresh",
+  "table": "shelfguard.april_escalation_decisions",
+  "april_orders_escalated": 763,
+  "estimated_cost_usd": 19075.0,
+  "orders_with_earlier_arrival": 529,
+  "stores_with_escalations": 40,
+  "validation": "Passed: PostgreSQL matches Step 23",
+  "cost_assumption": "$25 per April escalation, including orders that would have arrived the next day anyway"
+}

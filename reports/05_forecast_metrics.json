@@ -1,0 +1,14 @@
+{
+  "method": "Last 14 training days' average per store and medicine",
+  "training_dates": "2026-01-01 through 2026-02-14",
+  "test_dates": "2026-02-15 through 2026-03-01",
+  "test_forecast_records": 18000,
+  "test_actual_requested_units": 156138,
+  "wape_percent": 22.28,
+  "forecast_bias_percent": -0.45,
+  "meaning": {
+    "wape": "Total absolute forecast error divided by total actual requests",
+    "bias": "Positive means the forecast overestimated requests"
+  },
+  "validation": "Passed: test dates excluded from forecast training"
+}

@@ -1,0 +1,44 @@
+{
+  "selection_window": "2026-03-02 through 2026-03-31",
+  "comparison": [
+    {
+      "daily_escalation_limit": 0,
+      "orders_escalated": 0,
+      "estimated_escalation_cost_usd": 0,
+      "fill_rate_percent": 92.02,
+      "stockout_store_sku_days": 3585,
+      "average_daily_inventory_value_usd": 444670.8,
+      "inventory_change_percent": 0.0
+    },
+    {
+      "daily_escalation_limit": 5,
+      "orders_escalated": 150,
+      "estimated_escalation_cost_usd": 3750,
+      "fill_rate_percent": 92.21,
+      "stockout_store_sku_days": 3529,
+      "average_daily_inventory_value_usd": 444437.17,
+      "inventory_change_percent": -0.05
+    },
+    {
+      "daily_escalation_limit": 15,
+      "orders_escalated": 426,
+      "estimated_escalation_cost_usd": 10650,
+      "fill_rate_percent": 92.54,
+      "stockout_store_sku_days": 3417,
+      "average_daily_inventory_value_usd": 444653.03,
+      "inventory_change_percent": -0.0
+    },
+    {
+      "daily_escalation_limit": 50,
+      "orders_escalated": 494,
+      "estimated_escalation_cost_usd": 12350,
+      "fill_rate_percent": 92.61,
+      "stockout_store_sku_days": 3379,
+      "average_daily_inventory_value_usd": 445045.22,
+      "inventory_change_percent": 0.08
+    }
+  ],
+  "chosen_daily_escalation_limit": 50,
+  "selection_rule": "Highest March fill rate among candidates with inventory value no more than 2% above March baseline; lower escalation cost breaks a tie",
+  "assumption": "Escalated overdue orders can arrive the next day at $25 per order; supplier capacity is simulated"
+}

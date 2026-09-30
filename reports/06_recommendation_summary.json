@@ -1,0 +1,8 @@
+{
+  "decision_date": "2026-02-14",
+  "store_medicine_decisions": 1200,
+  "recommended_orders": 723,
+  "total_recommended_units": 19404,
+  "method": "Recent demand forecast + observed supplier lead time + safety stock; order in full case packs",
+  "important_limit": "This is a one-day recommendation, not a tested 15-day policy."
+}

@@ -1,0 +1,26 @@
+{
+  "project": "Pharmacy ShelfGuard synthetic simulation",
+  "evaluation_window": "2026-04-01 through 2026-04-30",
+  "locked_policy": {
+    "action": "Escalate overdue supplier orders",
+    "daily_escalation_limit": 50,
+    "priority": "Historical unmet units at the store and SKU through 2026-03-01; PO ID breaks ties"
+  },
+  "validation": "Passed: baseline replay matches saved daily inventory; March policy replay matches the March selection report.",
+  "april": {
+    "requested_units": 309323,
+    "baseline_fill_rate_percent": 91.78,
+    "policy_fill_rate_percent": 91.89,
+    "fill_rate_change_percentage_points": 0.1,
+    "baseline_stockout_store_sku_days": 3565,
+    "policy_stockout_store_sku_days": 3594,
+    "stockout_days_change_percent": 0.81,
+    "baseline_average_daily_inventory_value_usd": 442777.4,
+    "policy_average_daily_inventory_value_usd": 435626.86,
+    "inventory_value_change_percent": -1.61
+  },
+  "orders_escalated_in_march": 525,
+  "orders_escalated_in_april": 529,
+  "estimated_april_escalation_cost_usd": 13225,
+  "interpretation_note": "An escalation assumes next-day receipt at $25 per order. The original baseline purchase-order schedule stays fixed even when policy inventory changes. These are simulated counterfactual results, not observed pharmacy outcomes."
+}

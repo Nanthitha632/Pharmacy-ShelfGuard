@@ -1,0 +1,12 @@
+{
+  "policy": "Baseline: reorder below 4 days; target 9 days",
+  "daily_store_sku_records": 72000,
+  "purchase_orders": 11234,
+  "goods_receipts_within_60_days": 10526,
+  "requested_units": 639156,
+  "fulfilled_units": 581636,
+  "fill_rate_percent": 91.0,
+  "stockout_store_sku_days": 7680,
+  "average_daily_inventory_value_usd": 431476.65,
+  "validation": "Passed: no negative stock; inventory and demand balance"
+}

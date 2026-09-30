@@ -1,0 +1,31 @@
+sku,product_name,category,supplier_id,unit_cost_usd,case_pack,base_daily_demand
+MED001,Synthetic Medicine 001,Allergy,SUP01,3.32,24,11
+MED002,Synthetic Medicine 002,Cold and Flu,SUP02,16.25,6,11
+MED003,Synthetic Medicine 003,Pain Relief,SUP03,14.94,24,3
+MED004,Synthetic Medicine 004,Digestive,SUP04,20.79,12,8
+MED005,Synthetic Medicine 005,Wellness,SUP01,19.02,12,11
+MED006,Synthetic Medicine 006,Allergy,SUP02,22.57,12,10
+MED007,Synthetic Medicine 007,Cold and Flu,SUP03,14.35,24,3
+MED008,Synthetic Medicine 008,Pain Relief,SUP04,8.54,12,3
+MED009,Synthetic Medicine 009,Digestive,SUP01,4.82,12,10
+MED010,Synthetic Medicine 010,Wellness,SUP02,21.76,12,4
+MED011,Synthetic Medicine 011,Allergy,SUP03,8.36,6,11
+MED012,Synthetic Medicine 012,Cold and Flu,SUP04,15.56,12,10
+MED013,Synthetic Medicine 013,Pain Relief,SUP01,12.09,12,7
+MED014,Synthetic Medicine 014,Digestive,SUP02,3.81,24,5
+MED015,Synthetic Medicine 015,Wellness,SUP03,14.53,24,12
+MED016,Synthetic Medicine 016,Allergy,SUP04,11.66,24,7
+MED017,Synthetic Medicine 017,Cold and Flu,SUP01,20.15,12,11
+MED018,Synthetic Medicine 018,Pain Relief,SUP02,15.10,24,6
+MED019,Synthetic Medicine 019,Digestive,SUP03,20.75,24,3
+MED020,Synthetic Medicine 020,Wellness,SUP04,13.23,24,7
+MED021,Synthetic Medicine 021,Allergy,SUP01,11.71,6,10
+MED022,Synthetic Medicine 022,Cold and Flu,SUP02,5.90,6,7
+MED023,Synthetic Medicine 023,Pain Relief,SUP03,11.57,12,11
+MED024,Synthetic Medicine 024,Digestive,SUP04,16.27,12,12
+MED025,Synthetic Medicine 025,Wellness,SUP01,13.19,12,6
+MED026,Synthetic Medicine 026,Allergy,SUP02,10.84,24,11
+MED027,Synthetic Medicine 027,Cold and Flu,SUP03,21.71,12,12
+MED028,Synthetic Medicine 028,Pain Relief,SUP04,3.43,24,6
+MED029,Synthetic Medicine 029,Digestive,SUP01,13.24,24,9
+MED030,Synthetic Medicine 030,Wellness,SUP02,10.80,6,5

@@ -1,0 +1,27 @@
+{
+  "evaluation_window": "2026-02-15 through 2026-03-01",
+  "priority_orders": 66,
+  "expedited_purchase_orders": 289,
+  "estimated_expedite_cost_usd": 7225,
+  "baseline": {
+    "requested_units": 156138,
+    "fulfilled_units": 143361,
+    "fill_rate_percent": 91.82,
+    "stockout_store_sku_days": 1778,
+    "average_daily_inventory_value_usd": 445328.43
+  },
+  "combined_policy": {
+    "requested_units": 156138,
+    "fulfilled_units": 145611,
+    "fill_rate_percent": 93.26,
+    "stockout_store_sku_days": 1524,
+    "average_daily_inventory_value_usd": 454635.23
+  },
+  "change": {
+    "fill_rate_percentage_points": 1.44,
+    "stockout_days_percent": -14.29,
+    "inventory_value_percent": 2.09
+  },
+  "assumptions": "Baseline future PO quantities remain fixed; an overdue order can arrive the next day for $25. Supplier ability to expedite and the fee are synthetic assumptions.",
+  "status": "Candidate policy; report measured results only"
+}

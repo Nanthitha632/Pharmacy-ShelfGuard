@@ -1,0 +1,5 @@
+supplier_id,purchase_orders,receipts_within_window,late_receipts,late_receipt_rate_percent,average_actual_lead_days,overdue_open_orders_at_window_end
+SUP01,3105,2904,451,15.53,3.79,14
+SUP02,2961,2786,422,15.15,3.76,20
+SUP03,2602,2440,327,13.4,3.76,8
+SUP04,2566,2396,392,16.36,3.76,7

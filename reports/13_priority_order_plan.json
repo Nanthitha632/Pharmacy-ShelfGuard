@@ -1,0 +1,11 @@
+{
+  "decision_date": "2026-02-14",
+  "training_dates": "2026-01-01 through 2026-02-14",
+  "training_average_inventory_value_usd": 426859.39,
+  "extra_purchase_cost_budget_usd": 8537.19,
+  "selected_orders": 66,
+  "selected_units": 1062,
+  "estimated_purchase_cost_usd": 8535.3,
+  "selection_rule": "Past unmet units per purchase dollar; all ranking and budget inputs known by Feb 14",
+  "limit": "Purchase cost is a planning cap. The replay must measure actual fill rate, stockouts, and inventory value."
+}

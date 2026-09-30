@@ -1,0 +1,25 @@
+{
+  "window": "2026-02-15 through 2026-03-01",
+  "selected_extra_orders": 66,
+  "extra_units_received_within_window": 1062,
+  "baseline": {
+    "requested_units": 156138,
+    "fulfilled_units": 143361,
+    "fill_rate_percent": 91.82,
+    "stockout_store_sku_days": 1778,
+    "average_daily_inventory_value_usd": 445328.43
+  },
+  "baseline_plus_priority_orders": {
+    "requested_units": 156138,
+    "fulfilled_units": 143832,
+    "fill_rate_percent": 92.12,
+    "stockout_store_sku_days": 1720,
+    "average_daily_inventory_value_usd": 449849.9
+  },
+  "change": {
+    "fill_rate_percentage_points": 0.3,
+    "stockout_days_percent": -3.26,
+    "inventory_value_percent": 1.02
+  },
+  "limit": "Baseline future orders and receipts remain fixed. This measures incremental priority purchases, not a complete replacement of the baseline ordering policy."
+}
